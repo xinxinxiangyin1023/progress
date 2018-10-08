@@ -5,7 +5,7 @@ git clone https://github.com/akiicat/ecg-receiver
 cd ecg-receiver
 npm install
 ```
-安裝好的檔案會儲存在/home/pi/node_module/ecg-receiver下
+安裝好的檔案會儲存在/home/pi/ecg-receiver下
 
 
 # 關於開機自動執行 ecg receiver 的說明
@@ -45,7 +45,7 @@ exit 0
 ```
 上方輸入：
 ```
-node /home/pi/node_modules/ecg-receiver/app.js
+node /home/pi/ecg-receiver/app.js
 ```
 儲存退出後，reboot即可執行
 
