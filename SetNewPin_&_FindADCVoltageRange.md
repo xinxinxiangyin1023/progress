@@ -1,5 +1,5 @@
 # 設定新腳位 與 找ADC voltage range
-## 設定新腳位(假設PIN8 > PIN9)
+## 設定新腳位(假設PIN8 -> PIN9)
 #### 1.打開pin_mux.c
 (1)define PIN9
 
