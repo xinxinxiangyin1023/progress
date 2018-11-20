@@ -34,12 +34,16 @@ Set DEMO_ADC_CFG_IDX 9
 我們知道 Vref = g_AdcBandgap
 
 從 ADC_Configuration() 得
+
 ![](https://i.imgur.com/8VF4uj6.png)
+
 取值約為1.8V
 此時 **Vref Gain = 1.5**
 
 再從 fsl_adc.c 的 ADC_GetSdDefaultConfig()
+
 ![](https://i.imgur.com/4gVTxEi.png)
+
 得到 Vinn = 0.75 * Vref = 1.35(V)
 **-> -0.45V ≦ ADCx ≦ 3.15V**
 
