@@ -23,7 +23,7 @@ Set DEMO_ADC_CFG_IDX 9
 
 ## 找 Single-ended ADC voltage range(參考AN12232 QN908x ADC Application Note)
 根據 Note 我們知道 ADCx 的 range 有兩組
-**Vinn - Vref <= ADCx <= (Vinn + Vref)**
+**Vinn - Vref <= ADCx <= (Vinn + Vref)** , 
 **Vss <= ADCx <= Vcc**
 
 先從第一條開始：
